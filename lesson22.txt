@@ -1,0 +1,17 @@
+mkdir test;cd test;echo done (you can add space)
+
+How to stop execution if one command fails 
+
+mkdir test && cd test && echo done 
+mkdir test || echo "directory exists"
+mkdir test2 || echo "directory exists"
+
+
+less file.txt 
+ls /bin | less - output of 1st command is the input of the 2nd command
+
+mkdir hello ; cd hello ; echo "done";
+
+mkdir hello;\
+cd hello;\
+echo "done"
