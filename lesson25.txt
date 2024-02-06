@@ -1,0 +1,26 @@
+managing users 
+
+useradd
+usermod 
+userdel
+
+
+useradd -m john 
+cat /etc/passwd 
+
+usermod -s /bin/bash john 
+cat /etc/passwd 
+cat /etc/shadow 
+
+docker ps 
+docker exec {container_ID}
+exec -it {c_id} bash
+
+docker exec -it -u john {u_id} bash
+cat /etc/shadow 
+cd ~
+pwd 
+
+userdel john 
+
+adduser bob - More interactive (chance to set the password)
