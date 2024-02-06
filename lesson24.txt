@@ -1,0 +1,7 @@
+ps - all running processes 
+
+sleep 3
+sleep 3 & 
+
+kill 38 
+ps 
