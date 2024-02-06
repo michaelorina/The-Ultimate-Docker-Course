@@ -1,0 +1,9 @@
+ls 
+find - finding files and directories 
+ls -a 
+find /etc 
+find -type d - only the directories 
+find -type f -name "f*" (case sensitive)
+find -type f -iname "F*" (case insensitive)
+
+find / -type f -name "*.py" > python-files.txt 
