@@ -1,0 +1,18 @@
+printenv - all environment variables 
+
+PATH=/
+
+printenv PATH
+echo $PATH
+export DB_USER=michy
+printenv DB_USER
+
+docker ps -a 
+docker start -i 2f7 tab 
+only available in that terminal session
+
+nano .bash 
+echo DB_USER=michy >> .bashrc
+
+source .bashrc 
+source ~/.bashrc 
