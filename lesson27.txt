@@ -1,0 +1,27 @@
+File Permissions 
+
+cd /home 
+deploy.sh 
+echo echo hello > deploy.sh 
+cat deploy.sh 
+
+ls -l 
+d - directory 
+r - read 
+w - write 
+e - execute 
+
+g1 - root user 
+g2 - user 
+g3 - everyone else 
+
+./deploy 
+
+chmod u+x deploy.sh 
+ls -l 
+./deploy.sh 
+
+only the root user can execute 
+
+chmod o+x deploy.sh 
+chmod og+x+w-r deploy.sh 
