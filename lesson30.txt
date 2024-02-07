@@ -1,0 +1,15 @@
+Take an application 
+
+package.json file 
+dependecies needed 
+ 
+npm install 
+
+node modules directory 
+
+Steps 
+install node 
+npm install
+npm start 
+
+How can we use docker?? 
