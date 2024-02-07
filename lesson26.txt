@@ -1,0 +1,12 @@
+useradd 
+groupadd
+
+groupadd developers
+cat /etc/group 
+
+id 
+
+usermod -G developers john 
+cat /etc/group
+
+groups john 
