@@ -1,0 +1,8 @@
+Image - everything an application needs to run 
+Container - A VM like stuff 
+
+docker ps 
+
+docker run -it ubuntu 
+
+Each container has its own isolated environment 
