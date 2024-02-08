@@ -1,0 +1,9 @@
+What if you want to exlude stuff? eg node modules??
+
+.gitignore 
+.dockerignore 
+
+node_modules/
+
+docker build -t react-app 
+docker run -it react-app sh 
