@@ -1,0 +1,6 @@
+FROM node:
+WORKDIR /app
+COPY . .
+
+docker build -t react-app 
+docker run -it react-app sh
