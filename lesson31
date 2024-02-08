@@ -1,0 +1,12 @@
+Step 1 to dockerize an application
+
+From - Base Image 
+Workdir - Working directory
+Copy
+add 
+run 
+env
+expose 
+user 
+cmd 
+entrypoint 
