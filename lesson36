@@ -1,0 +1,7 @@
+Envrironment variable 
+
+ENV API_URL=link
+
+docker build -t react-app 
+printenv
+printenv API_URL 
