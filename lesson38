@@ -1,0 +1,20 @@
+users 
+
+middle users with limited permissions
+
+docker run -it alpine 
+
+adduser 
+adduser 
+addgroup app 
+adduser -s -G app app 
+groups app 
+
+addgroup michy && adduser -S -G michy michy 
+
+TO DOCKER FILE 
+RUN addgroup michy && adduser -S -G michy michy 
+USER 
+
+docker run -it react-app sh
+whoami - app user 
