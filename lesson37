@@ -1,0 +1,9 @@
+Start app out of docker 
+
+npm start 
+
+port 3000 on the container not the host 
+
+map a port to host 
+
+EXPOSE 3000
