@@ -1,0 +1,16 @@
+start a container 
+
+docker run react-app 
+
+docker run react-app npm start 
+
+docker build -t react-app
+
+docker run react-app npm start
+
+command instruction 
+
+CMD nmp start 
+
+CMD ["nmp", "start"]
+ENTRYPOINT ["npm", "start"]
