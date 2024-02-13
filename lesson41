@@ -1,0 +1,22 @@
+Removing images
+
+docker images 
+
+dangling images 
+
+docker image prune 
+
+docker ps
+
+docker ps -a
+
+docker container prune 
+
+docker image prune 
+
+docker image
+
+docker images 
+
+docker image rm react-app df3 
+docker image rm hello-docker 
