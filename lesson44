@@ -1,0 +1,5 @@
+saving and loading files
+
+docker image save -o react-app.tar react-app:3
+
+docker image load -i react-app.tar
