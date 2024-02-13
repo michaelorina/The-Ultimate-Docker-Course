@@ -1,0 +1,6 @@
+sharing images??
+
+docker image tag bo6 michaelorina/react-app
+
+docker login 
+docker push michaelorina/react-app:2
