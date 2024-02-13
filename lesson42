@@ -1,0 +1,21 @@
+tags?? 
+
+latest??
+
+what version ?? 
+
+how to tag your image
+
+docker build -t react-app 
+docker build -t react-app:buster or 3.1.5
+docker images
+
+docker image remove react-app:1
+
+while building it 
+
+after??
+
+docker images tag react-app:latest react-app:1
+
+docket image tag b06 react-app:latest 
