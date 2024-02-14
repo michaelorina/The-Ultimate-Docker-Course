@@ -1,0 +1,11 @@
+Review 
+
+docker images
+
+docker ps - see running images 
+
+docker run react-app 
+
+docker run -d react-app - detached (in the background)
+
+docker run -d --name blue-sky react-app 
