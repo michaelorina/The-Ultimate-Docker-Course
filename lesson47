@@ -1,0 +1,11 @@
+Viewing the logs 
+
+docker ps 
+
+docker logs 655
+
+docker logs --help
+
+-f - follow 
+-n 
+-t timestamp
