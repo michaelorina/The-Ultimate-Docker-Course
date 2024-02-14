@@ -1,0 +1,5 @@
+Stopping and Starting containers 
+
+docker stop c1 
+
+docker start c1 
