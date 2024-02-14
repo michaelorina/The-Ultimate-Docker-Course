@@ -1,0 +1,10 @@
+Publishing Ports 
+
+Publishing on the container not the host
+
+? Publish ports?
+
+docker ps 
+
+docker run -d -p 3000:3000 --name c1 react-app 
+
