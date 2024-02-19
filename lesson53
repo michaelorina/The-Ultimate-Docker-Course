@@ -1,0 +1,20 @@
+Persisting data using volumes 
+
+docker volume 
+
+docker volume create app-data 
+
+docker volume inspect app-data 
+
+Mountpoint?? 
+
+docker run -d -p 4000:3000 -v app-data:/app/data react-app 
+
+docker exec -it 716 sh 
+
+RUN mkdir data 
+
+docker build -t react-app 
+
+docker run -d -p 5000:3000 -v app-data:/app/data react-app 
+
