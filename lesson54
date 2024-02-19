@@ -1,0 +1,12 @@
+Copying files between Host and containers
+
+docker ps 
+
+docker exec -it e1c sh 
+echo hello > log.txt 
+
+docker cp e1c...:/app/log.txt .
+
+echo hello > secret.txt 
+
+docker cp secret.txt ec1...:/app
