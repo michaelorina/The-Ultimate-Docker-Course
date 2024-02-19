@@ -1,0 +1,9 @@
+Sharing source code with container 
+
+index.html 
+
+?? For development ??
+
+Mapping?? 
+
+docker run -d -p 5001:3000 -v $(pwd):/app react-app
