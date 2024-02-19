@@ -1,0 +1,8 @@
+container file system 
+
+docker ps 
+
+docker exet -it 655 sh
+echo data > data.txt 
+
+docker exec -it 6eb sh 
