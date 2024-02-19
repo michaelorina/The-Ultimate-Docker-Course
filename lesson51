@@ -1,0 +1,15 @@
+remove containers
+
+docker rm c1 
+
+force removal 
+
+docker rm -f c1 
+
+docker ps -a 
+
+docker ps -a | grep c1 
+
+docker container prune 
+
+docker ps 
