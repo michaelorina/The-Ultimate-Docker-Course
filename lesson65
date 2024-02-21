@@ -1,0 +1,7 @@
+Viewing Logs 
+
+docker-compose logs --help 
+
+docker ps 
+
+docker logs 123 -f 
