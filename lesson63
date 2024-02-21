@@ -1,0 +1,5 @@
+Starting and Stopping an Application 
+
+docker-compose up --help
+
+docker-compose down
