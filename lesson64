@@ -1,0 +1,6 @@
+Docker Networking 
+
+docker network ls 
+
+docker exec -it -u root 123 sh
+ping web 
