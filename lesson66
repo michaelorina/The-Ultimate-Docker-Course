@@ -1,0 +1,6 @@
+Publishing changes 
+
+Map directories 
+
+volumes:
+    - ./backend:/app
