@@ -1,0 +1,9 @@
+Running Tests 
+
+cd frontend/
+npm test 
+
+web-tests:
+    image:vidly_web
+    volumes:
+        
