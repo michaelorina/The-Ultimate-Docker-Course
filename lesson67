@@ -1,0 +1,19 @@
+Database Migrations
+
+migrate-mongo under dependencies 
+
+migrate-mongo up 
+
+Dockerfile 
+
+Docker compose file 
+
+command: migrate-mongo up && npm start 
+
+waiting script for database to start 
+
+wait-for script 
+
+./wait-for db:27017 && 
+
+docker-entrypoint.sh 
