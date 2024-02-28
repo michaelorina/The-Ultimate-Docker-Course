@@ -1,0 +1,5 @@
+Connecting to the Host
+
+docker-machine ls
+
+docker-machine ssh vidly 
