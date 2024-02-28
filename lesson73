@@ -1,0 +1,6 @@
+Provisioning a Machine
+
+docker-machine create \
+--driver digitalocean \
+--digitalocean-access-token \
+vidly
